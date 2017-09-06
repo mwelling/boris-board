@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name PocketBeagle.pretty)(type KiCad)(uri $KIPRJMOD/pocketbeagle.pretty)(options "")(descr ""))
+  (lib (name libs)(type KiCad)(uri /home/michael/projects/kicad/libs)(options "")(descr ""))
+)
