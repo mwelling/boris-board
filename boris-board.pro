@@ -1,4 +1,4 @@
-update=Tue 05 Sep 2017 07:41:22 PM CDT
+update=Sun 10 Sep 2017 10:40:41 PM CDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -123,3 +123,4 @@ LibName91=actel
 LibName92=ac-dc
 LibName93=74xx
 LibName94=74xgxx
+LibName95=boris-board
