@@ -1,4 +1,99 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:Zilog
+LIBS:zetex
+LIBS:xilinx
+LIBS:Xicor
+LIBS:Worldsemi
+LIBS:wiznet
+LIBS:video
+LIBS:valves
+LIBS:ttl_ieee
+LIBS:triac_thyristor
+LIBS:transistors
+LIBS:transf
+LIBS:texas
+LIBS:switches
+LIBS:supertex
+LIBS:stm32
+LIBS:stm8
+LIBS:siliconi
+LIBS:silabs
+LIBS:sensors
+LIBS:RFSolutions
+LIBS:rfcom
+LIBS:relays
+LIBS:regul
+LIBS:references
+LIBS:pspice
+LIBS:Power_Management
+LIBS:powerint
+LIBS:power
+LIBS:philips
+LIBS:Oscillators
+LIBS:opto
+LIBS:onsemi
+LIBS:nxp_armmcu
+LIBS:nxp
+LIBS:nordicsemi
+LIBS:msp430
+LIBS:motors
+LIBS:motorola
+LIBS:motor_drivers
+LIBS:modules
+LIBS:microcontrollers
+LIBS:microchip_pic32mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic10mcu
+LIBS:microchip_dspic33dsc
+LIBS:microchip
+LIBS:memory
+LIBS:mechanical
+LIBS:maxim
+LIBS:logo
+LIBS:linear
+LIBS:LEM
+LIBS:leds
+LIBS:Lattice
+LIBS:ir
+LIBS:intersil
+LIBS:interface
+LIBS:intel
+LIBS:hc11
+LIBS:graphic
+LIBS:gennum
+LIBS:ftdi
+LIBS:ESD_Protection
+LIBS:elec-unifil
+LIBS:dsp
+LIBS:display
+LIBS:diode
+LIBS:digital-audio
+LIBS:device
+LIBS:dc-dc
+LIBS:cypress
+LIBS:contrib
+LIBS:conn
+LIBS:cmos_ieee
+LIBS:cmos4000
+LIBS:brooktre
+LIBS:bosch
+LIBS:bbd
+LIBS:battery_management
+LIBS:audio
+LIBS:atmel
+LIBS:analog_switches
+LIBS:analog_devices
+LIBS:Altera
+LIBS:allegro
+LIBS:adc-dac
+LIBS:actel
+LIBS:ac-dc
+LIBS:74xx
+LIBS:74xgxx
+LIBS:boris-board
 LIBS:boris-board-cache
 EELAYER 26 0
 EELAYER END
@@ -15,7 +110,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L boris-board-rescue:GND #GND01
+L GND #GND01
 U 1 1 599213A3
 P 2800 3300
 F 0 "#GND01" H 2701 3200 70  0001 L BNN
@@ -26,7 +121,7 @@ F 3 "" H 2800 3300 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L boris-board-rescue:GND #GND02
+L GND #GND02
 U 1 1 59921407
 P 6000 3300
 F 0 "#GND02" H 5900 3200 70  0001 L BNN
@@ -37,7 +132,7 @@ F 3 "" H 6000 3300 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L boris-board-rescue:GND #GND03
+L GND #GND03
 U 1 1 5992146B
 P 6000 3600
 F 0 "#GND03" H 5900 3500 70  0001 L BNN
@@ -48,7 +143,7 @@ F 3 "" H 6000 3600 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L boris-board-rescue:GND #GND04
+L GND #GND04
 U 1 1 599214CF
 P 7300 3300
 F 0 "#GND04" H 7201 3200 70  0001 L BNN
@@ -59,7 +154,7 @@ F 3 "" H 7300 3300 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L boris-board-rescue:GND #GND05
+L GND #GND05
 U 1 1 59921533
 P 7300 3600
 F 0 "#GND05" H 7201 3500 70  0001 L BNN
@@ -70,7 +165,7 @@ F 3 "" H 7300 3600 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L boris-board-rescue:2X18-_INCH_-0.1-TH-_35MIL-DIA_-W_O-SILK P1
+L 2X18-_INCH_-0.1-TH-_35MIL-DIA_-W_O-SILK P1
 U 1 1 59921D67
 P 4550 3500
 F 0 "P1" H 4500 4550 70  0000 L BNN
@@ -81,7 +176,7 @@ F 3 "" H 4550 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boris-board-rescue:2X18-_INCH_-0.1-TH-_35MIL-DIA_-W_O-SILK P2
+L 2X18-_INCH_-0.1-TH-_35MIL-DIA_-W_O-SILK P2
 U 1 1 59921E2F
 P 8750 3500
 F 0 "P2" H 8700 4550 70  0000 L BNN
@@ -92,7 +187,7 @@ F 3 "" H 8750 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boris-board-rescue:SYS_5V #SUPPLY011
+L SYS_5V #SUPPLY011
 U 1 1 59922B13
 P 7100 3200
 F 0 "#SUPPLY011" H 7100 3360 70  0001 L BNN
@@ -103,7 +198,7 @@ F 3 "" H 7100 3200 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L boris-board-rescue:SYS_5V #SUPPLY08
+L SYS_5V #SUPPLY08
 U 1 1 59922B77
 P 6200 3700
 F 0 "#SUPPLY08" H 6200 3860 70  0001 L BNN
@@ -114,7 +209,7 @@ F 3 "" H 6200 3700 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L boris-board-rescue:VDD_5V #SUPPLY02
+L VDD_5V #SUPPLY02
 U 1 1 59922CA3
 P 2700 2600
 F 0 "#SUPPLY02" H 2700 2760 70  0001 L BNN
@@ -125,7 +220,7 @@ F 3 "" H 2700 2600 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L boris-board-rescue:USB_DC #SUPPLY01
+L USB_DC #SUPPLY01
 U 1 1 59922D6B
 P 2600 2900
 F 0 "#SUPPLY01" H 2600 3060 70  0001 L BNN
@@ -136,7 +231,7 @@ F 3 "" H 2600 2900 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L boris-board-rescue:VDD_3V3B #SUPPLY012
+L VDD_3V3B #SUPPLY012
 U 1 1 59922DCF
 P 7100 3700
 F 0 "#SUPPLY012" H 7100 3860 70  0001 L BNN
@@ -581,7 +676,7 @@ VDD_5V
 Text GLabel 9050 3200 2    10   UnSpc ~ 0
 VIN.BAT
 $Comp
-L boris-board-rescue:OPEN_HARDWARE_1 LOGO1
+L OPEN_HARDWARE_1 LOGO1
 U 1 1 59AF4558
 P 4550 5050
 F 0 "LOGO1" H 4797 5121 50  0000 L CNN
@@ -592,7 +687,7 @@ F 3 "" H 4550 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boris-board-rescue:OPEN_HARDWARE_1 LOGO2
+L OPEN_HARDWARE_1 LOGO2
 U 1 1 59AF483B
 P 5900 5050
 F 0 "LOGO2" H 6147 5121 50  0000 L CNN
@@ -603,7 +698,7 @@ F 3 "" H 5900 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boris-board-rescue:SK6805-2427 LD1
+L SK6805-2427 LD1
 U 1 1 59B60662
 P 3800 6000
 F 0 "LD1" H 3800 6347 60  0000 C CNN
@@ -614,7 +709,7 @@ F 3 "" H 3850 5950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boris-board-rescue:SK6805-2427 LD2
+L SK6805-2427 LD2
 U 1 1 59B606D9
 P 5100 6000
 F 0 "LD2" H 5100 6347 60  0000 C CNN
@@ -625,7 +720,7 @@ F 3 "" H 5150 5950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boris-board-rescue:SK6805-2427 LD3
+L SK6805-2427 LD3
 U 1 1 59B60729
 P 6400 6000
 F 0 "LD3" H 6400 6347 60  0000 C CNN
@@ -636,7 +731,7 @@ F 3 "" H 6450 5950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boris-board-rescue:SK6805-2427 LD4
+L SK6805-2427 LD4
 U 1 1 59B60779
 P 7700 6000
 F 0 "LD4" H 7700 6347 60  0000 C CNN
@@ -647,7 +742,7 @@ F 3 "" H 7750 5950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boris-board-rescue:SK6805-2427 LD5
+L SK6805-2427 LD5
 U 1 1 59B60827
 P 9000 6000
 F 0 "LD5" H 9000 6347 60  0000 C CNN
@@ -658,7 +753,7 @@ F 3 "" H 9050 5950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boris-board-rescue:SK6805-2427 LD6
+L SK6805-2427 LD6
 U 1 1 59B60BC4
 P 10300 6000
 F 0 "LD6" H 10300 6347 60  0000 C CNN
@@ -669,7 +764,7 @@ F 3 "" H 10350 5950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boris-board-rescue:SK6805-2427 LD7
+L SK6805-2427 LD7
 U 1 1 59B60BCA
 P 11600 6000
 F 0 "LD7" H 11600 6347 60  0000 C CNN
@@ -680,7 +775,7 @@ F 3 "" H 11650 5950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boris-board-rescue:SK6805-2427 LD8
+L SK6805-2427 LD8
 U 1 1 59B60BD0
 P 12900 6000
 F 0 "LD8" H 12900 6347 60  0000 C CNN
@@ -691,7 +786,7 @@ F 3 "" H 12950 5950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boris-board-rescue:SK6805-2427 LD9
+L SK6805-2427 LD9
 U 1 1 59B60BD6
 P 14200 6000
 F 0 "LD9" H 14200 6347 60  0000 C CNN
@@ -702,7 +797,7 @@ F 3 "" H 14250 5950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boris-board-rescue:SK6805-2427 LD10
+L SK6805-2427 LD10
 U 1 1 59B60BDC
 P 15500 6000
 F 0 "LD10" H 15500 6347 60  0000 C CNN
@@ -761,7 +856,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 6000 2350 6000
 $Comp
-L boris-board-rescue:GND #PWR018
+L GND #PWR018
 U 1 1 59B625D4
 P 16100 7600
 F 0 "#PWR018" H 16100 7350 50  0001 C CNN
@@ -776,7 +871,7 @@ Wire Wire Line
 Wire Wire Line
 	16100 7500 16100 7600
 $Comp
-L boris-board-rescue:SYS_5V #SUPPLY024
+L SYS_5V #SUPPLY024
 U 1 1 59B62828
 P 16100 7100
 F 0 "#SUPPLY024" H 16100 7260 70  0001 L BNN
@@ -791,7 +886,7 @@ Wire Wire Line
 Wire Wire Line
 	16100 7300 16100 7200
 $Comp
-L boris-board-rescue:GND #PWR017
+L GND #PWR017
 U 1 1 59B62DC9
 P 14800 7600
 F 0 "#PWR017" H 14800 7350 50  0001 C CNN
@@ -806,7 +901,7 @@ Wire Wire Line
 Wire Wire Line
 	14800 7500 14800 7600
 $Comp
-L boris-board-rescue:SYS_5V #SUPPLY023
+L SYS_5V #SUPPLY023
 U 1 1 59B62DD1
 P 14800 7100
 F 0 "#SUPPLY023" H 14800 7260 70  0001 L BNN
@@ -821,7 +916,7 @@ Wire Wire Line
 Wire Wire Line
 	14800 7300 14800 7200
 $Comp
-L boris-board-rescue:GND #PWR015
+L GND #PWR015
 U 1 1 59B62E99
 P 13500 7600
 F 0 "#PWR015" H 13500 7350 50  0001 C CNN
@@ -836,7 +931,7 @@ Wire Wire Line
 Wire Wire Line
 	13500 7500 13500 7600
 $Comp
-L boris-board-rescue:SYS_5V #SUPPLY021
+L SYS_5V #SUPPLY021
 U 1 1 59B62EA1
 P 13500 7100
 F 0 "#SUPPLY021" H 13500 7260 70  0001 L BNN
@@ -851,7 +946,7 @@ Wire Wire Line
 Wire Wire Line
 	13500 7300 13500 7200
 $Comp
-L boris-board-rescue:GND #PWR013
+L GND #PWR013
 U 1 1 59B62ED9
 P 12200 7600
 F 0 "#PWR013" H 12200 7350 50  0001 C CNN
@@ -866,7 +961,7 @@ Wire Wire Line
 Wire Wire Line
 	12200 7500 12200 7600
 $Comp
-L boris-board-rescue:SYS_5V #SUPPLY019
+L SYS_5V #SUPPLY019
 U 1 1 59B62EE1
 P 12200 7100
 F 0 "#SUPPLY019" H 12200 7260 70  0001 L BNN
@@ -881,7 +976,7 @@ Wire Wire Line
 Wire Wire Line
 	12200 7300 12200 7200
 $Comp
-L boris-board-rescue:GND #PWR011
+L GND #PWR011
 U 1 1 59B62F19
 P 10900 7600
 F 0 "#PWR011" H 10900 7350 50  0001 C CNN
@@ -896,7 +991,7 @@ Wire Wire Line
 Wire Wire Line
 	10900 7500 10900 7600
 $Comp
-L boris-board-rescue:SYS_5V #SUPPLY017
+L SYS_5V #SUPPLY017
 U 1 1 59B62F21
 P 10900 7100
 F 0 "#SUPPLY017" H 10900 7260 70  0001 L BNN
@@ -911,7 +1006,7 @@ Wire Wire Line
 Wire Wire Line
 	10900 7300 10900 7200
 $Comp
-L boris-board-rescue:GND #PWR08
+L GND #PWR08
 U 1 1 59B62FB9
 P 8300 7600
 F 0 "#PWR08" H 8300 7350 50  0001 C CNN
@@ -926,7 +1021,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 7500 8300 7600
 $Comp
-L boris-board-rescue:SYS_5V #SUPPLY014
+L SYS_5V #SUPPLY014
 U 1 1 59B62FC1
 P 8300 7100
 F 0 "#SUPPLY014" H 8300 7260 70  0001 L BNN
@@ -941,7 +1036,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 7300 8300 7200
 $Comp
-L boris-board-rescue:GND #PWR06
+L GND #PWR06
 U 1 1 59B62FF9
 P 7000 7600
 F 0 "#PWR06" H 7000 7350 50  0001 C CNN
@@ -956,7 +1051,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 7500 7000 7600
 $Comp
-L boris-board-rescue:SYS_5V #SUPPLY010
+L SYS_5V #SUPPLY010
 U 1 1 59B63001
 P 7000 7100
 F 0 "#SUPPLY010" H 7000 7260 70  0001 L BNN
@@ -971,7 +1066,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 7300 7000 7200
 $Comp
-L boris-board-rescue:GND #PWR04
+L GND #PWR04
 U 1 1 59B63099
 P 5700 7600
 F 0 "#PWR04" H 5700 7350 50  0001 C CNN
@@ -986,7 +1081,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 7500 5700 7600
 $Comp
-L boris-board-rescue:SYS_5V #SUPPLY06
+L SYS_5V #SUPPLY06
 U 1 1 59B630A1
 P 5700 7100
 F 0 "#SUPPLY06" H 5700 7260 70  0001 L BNN
@@ -1001,7 +1096,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 7300 5700 7200
 $Comp
-L boris-board-rescue:GND #PWR02
+L GND #PWR02
 U 1 1 59B630D9
 P 4400 7600
 F 0 "#PWR02" H 4400 7350 50  0001 C CNN
@@ -1016,7 +1111,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 7500 4400 7600
 $Comp
-L boris-board-rescue:SYS_5V #SUPPLY04
+L SYS_5V #SUPPLY04
 U 1 1 59B630E1
 P 4400 7100
 F 0 "#SUPPLY04" H 4400 7260 70  0001 L BNN
@@ -1031,7 +1126,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 7300 4400 7200
 $Comp
-L boris-board-rescue:GND #PWR01
+L GND #PWR01
 U 1 1 59B63131
 P 4400 6200
 F 0 "#PWR01" H 4400 5950 50  0001 C CNN
@@ -1046,7 +1141,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 6100 4400 6200
 $Comp
-L boris-board-rescue:SYS_5V #SUPPLY03
+L SYS_5V #SUPPLY03
 U 1 1 59B63139
 P 4400 5700
 F 0 "#SUPPLY03" H 4400 5860 70  0001 L BNN
@@ -1061,7 +1156,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 5900 4400 5800
 $Comp
-L boris-board-rescue:GND #PWR03
+L GND #PWR03
 U 1 1 59B63171
 P 5700 6200
 F 0 "#PWR03" H 5700 5950 50  0001 C CNN
@@ -1076,7 +1171,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 6100 5700 6200
 $Comp
-L boris-board-rescue:SYS_5V #SUPPLY05
+L SYS_5V #SUPPLY05
 U 1 1 59B63179
 P 5700 5700
 F 0 "#SUPPLY05" H 5700 5860 70  0001 L BNN
@@ -1091,7 +1186,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 5900 5700 5800
 $Comp
-L boris-board-rescue:GND #PWR05
+L GND #PWR05
 U 1 1 59B631B1
 P 7000 6200
 F 0 "#PWR05" H 7000 5950 50  0001 C CNN
@@ -1106,7 +1201,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 6100 7000 6200
 $Comp
-L boris-board-rescue:SYS_5V #SUPPLY09
+L SYS_5V #SUPPLY09
 U 1 1 59B631B9
 P 7000 5700
 F 0 "#SUPPLY09" H 7000 5860 70  0001 L BNN
@@ -1121,7 +1216,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 5900 7000 5800
 $Comp
-L boris-board-rescue:GND #PWR07
+L GND #PWR07
 U 1 1 59B631F1
 P 8300 6200
 F 0 "#PWR07" H 8300 5950 50  0001 C CNN
@@ -1136,7 +1231,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 6100 8300 6200
 $Comp
-L boris-board-rescue:SYS_5V #SUPPLY013
+L SYS_5V #SUPPLY013
 U 1 1 59B631F9
 P 8300 5700
 F 0 "#SUPPLY013" H 8300 5860 70  0001 L BNN
@@ -1151,7 +1246,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 5900 8300 5800
 $Comp
-L boris-board-rescue:GND #PWR09
+L GND #PWR09
 U 1 1 59B63291
 P 9600 6200
 F 0 "#PWR09" H 9600 5950 50  0001 C CNN
@@ -1166,7 +1261,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 6100 9600 6200
 $Comp
-L boris-board-rescue:SYS_5V #SUPPLY015
+L SYS_5V #SUPPLY015
 U 1 1 59B63299
 P 9600 5700
 F 0 "#SUPPLY015" H 9600 5860 70  0001 L BNN
@@ -1181,7 +1276,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 5900 9600 5800
 $Comp
-L boris-board-rescue:GND #PWR010
+L GND #PWR010
 U 1 1 59B632D1
 P 10900 6200
 F 0 "#PWR010" H 10900 5950 50  0001 C CNN
@@ -1196,7 +1291,7 @@ Wire Wire Line
 Wire Wire Line
 	10900 6100 10900 6200
 $Comp
-L boris-board-rescue:SYS_5V #SUPPLY016
+L SYS_5V #SUPPLY016
 U 1 1 59B632D9
 P 10900 5700
 F 0 "#SUPPLY016" H 10900 5860 70  0001 L BNN
@@ -1211,7 +1306,7 @@ Wire Wire Line
 Wire Wire Line
 	10900 5900 10900 5800
 $Comp
-L boris-board-rescue:GND #PWR012
+L GND #PWR012
 U 1 1 59B63311
 P 12200 6200
 F 0 "#PWR012" H 12200 5950 50  0001 C CNN
@@ -1226,7 +1321,7 @@ Wire Wire Line
 Wire Wire Line
 	12200 6100 12200 6200
 $Comp
-L boris-board-rescue:SYS_5V #SUPPLY018
+L SYS_5V #SUPPLY018
 U 1 1 59B63319
 P 12200 5700
 F 0 "#SUPPLY018" H 12200 5860 70  0001 L BNN
@@ -1241,7 +1336,7 @@ Wire Wire Line
 Wire Wire Line
 	12200 5900 12200 5800
 $Comp
-L boris-board-rescue:GND #PWR014
+L GND #PWR014
 U 1 1 59B63351
 P 13500 6200
 F 0 "#PWR014" H 13500 5950 50  0001 C CNN
@@ -1256,7 +1351,7 @@ Wire Wire Line
 Wire Wire Line
 	13500 6100 13500 6200
 $Comp
-L boris-board-rescue:SYS_5V #SUPPLY020
+L SYS_5V #SUPPLY020
 U 1 1 59B63359
 P 13500 5700
 F 0 "#SUPPLY020" H 13500 5860 70  0001 L BNN
@@ -1271,7 +1366,7 @@ Wire Wire Line
 Wire Wire Line
 	13500 5900 13500 5800
 $Comp
-L boris-board-rescue:GND #PWR016
+L GND #PWR016
 U 1 1 59B63391
 P 14800 6200
 F 0 "#PWR016" H 14800 5950 50  0001 C CNN
@@ -1286,7 +1381,7 @@ Wire Wire Line
 Wire Wire Line
 	14800 6100 14800 6200
 $Comp
-L boris-board-rescue:SYS_5V #SUPPLY022
+L SYS_5V #SUPPLY022
 U 1 1 59B63399
 P 14800 5700
 F 0 "#SUPPLY022" H 14800 5860 70  0001 L BNN
@@ -1303,7 +1398,7 @@ Wire Wire Line
 Text Label 2400 6000 0    60   ~ 0
 (U1.A2)PRU-0.1
 $Comp
-L boris-board-rescue:SK6805-2427 LD11
+L SK6805-2427 LD11
 U 1 1 59B655B9
 P 3800 7400
 F 0 "LD11" H 3800 7747 60  0000 C CNN
@@ -1314,7 +1409,7 @@ F 3 "" H 3850 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boris-board-rescue:SK6805-2427 LD12
+L SK6805-2427 LD12
 U 1 1 59B6561B
 P 5100 7400
 F 0 "LD12" H 5100 7747 60  0000 C CNN
@@ -1325,7 +1420,7 @@ F 3 "" H 5150 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boris-board-rescue:SK6805-2427 LD13
+L SK6805-2427 LD13
 U 1 1 59B6567D
 P 6400 7400
 F 0 "LD13" H 6400 7747 60  0000 C CNN
@@ -1336,7 +1431,7 @@ F 3 "" H 6450 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boris-board-rescue:SK6805-2427 LD14
+L SK6805-2427 LD14
 U 1 1 59B656DF
 P 7700 7400
 F 0 "LD14" H 7700 7747 60  0000 C CNN
@@ -1347,7 +1442,7 @@ F 3 "" H 7750 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boris-board-rescue:SK6805-2427 LD15
+L SK6805-2427 LD15
 U 1 1 59B65747
 P 9000 7400
 F 0 "LD15" H 9000 7747 60  0000 C CNN
@@ -1358,7 +1453,7 @@ F 3 "" H 9050 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boris-board-rescue:SK6805-2427 LD16
+L SK6805-2427 LD16
 U 1 1 59B65829
 P 10300 7400
 F 0 "LD16" H 10300 7747 60  0000 C CNN
@@ -1369,7 +1464,7 @@ F 3 "" H 10350 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boris-board-rescue:SK6805-2427 LD17
+L SK6805-2427 LD17
 U 1 1 59B6589D
 P 11600 7400
 F 0 "LD17" H 11600 7747 60  0000 C CNN
@@ -1380,7 +1475,7 @@ F 3 "" H 11650 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boris-board-rescue:SK6805-2427 LD18
+L SK6805-2427 LD18
 U 1 1 59B65903
 P 12900 7400
 F 0 "LD18" H 12900 7747 60  0000 C CNN
@@ -1391,7 +1486,7 @@ F 3 "" H 12950 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boris-board-rescue:SK6805-2427 LD19
+L SK6805-2427 LD19
 U 1 1 59B65A07
 P 14200 7400
 F 0 "LD19" H 14200 7747 60  0000 C CNN
@@ -1402,7 +1497,7 @@ F 3 "" H 14250 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boris-board-rescue:SK6805-2427 LD20
+L SK6805-2427 LD20
 U 1 1 59B65A75
 P 15500 7400
 F 0 "LD20" H 15500 7747 60  0000 C CNN
@@ -1413,7 +1508,7 @@ F 3 "" H 15550 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boris-board-rescue:GND #PWR019
+L GND #PWR019
 U 1 1 59B65D3F
 P 9600 7600
 F 0 "#PWR019" H 9600 7350 50  0001 C CNN
@@ -1428,7 +1523,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 7500 9600 7600
 $Comp
-L boris-board-rescue:SYS_5V #SUPPLY025
+L SYS_5V #SUPPLY025
 U 1 1 59B65D47
 P 9600 7100
 F 0 "#SUPPLY025" H 9600 7260 70  0001 L BNN
@@ -1443,7 +1538,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 7300 9600 7200
 $Comp
-L boris-board-rescue:GND #PWR020
+L GND #PWR020
 U 1 1 59B6614C
 P 16100 6200
 F 0 "#PWR020" H 16100 5950 50  0001 C CNN
@@ -1458,7 +1553,7 @@ Wire Wire Line
 Wire Wire Line
 	16100 6100 16100 6200
 $Comp
-L boris-board-rescue:SYS_5V #SUPPLY026
+L SYS_5V #SUPPLY026
 U 1 1 59B66154
 P 16100 5700
 F 0 "#SUPPLY026" H 16100 5860 70  0001 L BNN

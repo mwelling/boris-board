@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name boris-board-rescue)(type Legacy)(uri ${KIPRJMOD}/boris-board-rescue.lib)(options "")(descr ""))
+)

@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name boris-board-rescue)(type Legacy)(uri ${KIPRJMOD}/boris-board-rescue.lib)(options "")(descr ""))
+  (lib (name pspice1)(type Legacy)(uri /usr/share/kicad/library/pspice.lib)(options "")(descr ""))
+  (lib (name Power_Management1)(type Legacy)(uri /usr/share/kicad/library/Power_Management.lib)(options "")(descr ""))
+  (lib (name power1)(type Legacy)(uri /usr/share/kicad/library/power.lib)(options "")(descr ""))
+  (lib (name 74xx1)(type Legacy)(uri /usr/share/kicad/library/74xx.lib)(options "")(descr ""))
+  (lib (name boris-board)(type Legacy)(uri ${KIPRJMOD}/boris-board.lib)(options "")(descr ""))
+)
